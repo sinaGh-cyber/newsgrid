@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -12,6 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
@@ -19,29 +27,39 @@
       href="./css/mobile.css"
     />
 
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
     <title>NewsGrid | Latest News</title>
   </head>
+
   <body>
     <nav id="main-nav">
       <div class="container">
-        <img src="./image_resources/logo.png" alt="NewsGrid" />
+        <img class="logo" src="./image_resources/logo.png" alt="NewsGrid" />
+
         <div class="social">
           <a target="_blank" href="http://facebook.com"
-            ><i class="fab fa-facebook fa-2x"></i></a
-          ><a target="_blank" href="http://twitter.com"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+
+          <a target="_blank" href="http://twitter.com"
             ><i class="fab fa-twitter fa-2x"></i
           ></a>
+
           <a target="_blank" href="http://instagram.com"
             ><i class="fab fa-instagram fa-2x"></i
           ></a>
+
           <a target="_blank" href="http://youtube.com"
             ><i class="fab fa-youtube fa-2x"></i
           ></a>
         </div>
+
         <ul>
           <li>
-            <a href="#">Home <i></i></a>
+            <a class="current" href="#">Home <i></i></a>
           </li>
+
           <li>
             <a href="#">About <i></i></a>
           </li>
