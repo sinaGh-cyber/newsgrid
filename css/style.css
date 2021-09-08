@@ -56,6 +56,26 @@ h6 {
   overflow: hidden;
 }
 
+.category {
+  display: inline-block;
+  font-size: 0.55rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.category-sports {
+  background-color: var(--sports-color);
+}
+.category-ent {
+  background-color: var(--ent-color);
+}
+.category-tech {
+  background-color: var(--tech-color);
+}
+
 /*Navgation*/
 
 #main-nav {
